@@ -1,5 +1,6 @@
 import { Grettings } from './Components/Grettings'
 import './App.css'
+import { Counter } from './Components/Count/Counter'
 
 function App() {
 
@@ -7,6 +8,7 @@ function App() {
   return (
     <>
      <Grettings></Grettings>
+     <Counter></Counter>
 
     </>
   )
